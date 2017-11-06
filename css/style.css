@@ -1,0 +1,153 @@
+.container {
+	width: 960px;
+	height: 1900px;
+	margin: 0 auto;
+
+}
+.subcontainer {
+	width: 900px;
+	height: 1800px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.logo {
+	margin-top: 40px;
+	margin-left: 30px;
+	position: relative;
+	margin-left: 360px;
+}
+audio {
+	float: right;
+}
+
+nav li a {
+font-family: 'Righteous', cursive;
+font-size: 18px;
+text-decoration: none;
+color: #cc3333;
+text-align: center;
+padding-left: 20px;
+padding-right: 20px;
+
+}
+
+a:hover { 
+	color: white;
+	background: #cc3333;
+}
+
+nav {
+	max-width: 1000px;
+	width: 900px;
+	margin: 0 auto;
+	margin-top: -50px;
+	text-align: center;
+	position: absolute;
+
+
+
+}
+nav li {
+	display: inline-block;
+	margin: 20px;
+	text-align: center;}
+
+
+#carrusel {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#carrusel ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    
+    animation: cambio 20s infinite alternate linear;
+}
+
+#carrusel li {
+    width: 100%;
+    list-style: none;
+}
+
+#carrusel img {
+    width: 100%;
+}
+/* aqui esta el tiempo determinado de las fotos y porque se devuelven */
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+.contenedor_rojo {
+	width: 855px;
+	height: 700px;
+	background: #cc3333;
+	position: absolute;
+	margin-left: 25px;
+}
+.sergio h1 {
+	color: white;
+	margin-left: 400px;
+	position: absolute;
+	font-family: 'Righteous', cursive;
+	font-size: 32px;
+	margin-top: 30px;
+}
+.sergio p {
+	font-size: 16px;
+	width: 400px;
+	color: white;
+	margin-left: 400px;
+	margin-top: 90px;
+	position: absolute;
+	font-family: 'Righteous', cursive;
+}
+.sergio img {
+	margin-top: 55px;
+	margin-left: 75px;
+	position: absolute;
+	transform: scale(1.3);
+}
+.kilian img {
+	margin-top: 400px;
+	margin-left: 500px;
+	transform: scale(1.3);
+}
+.kilian h1 {
+	color: white;
+	margin-top: -250px;
+	font-family: 'Righteous', cursive;
+	margin-left: 35px;
+	font-size: 32px;
+
+}
+.kilian p {
+	color: white;
+	width: 400px;
+	font-family: 'Righteous', cursive;
+	font-size: 16px;
+	margin-left: 35px;
+	margin-top: 30px;
+}
+.banner {
+	margin-top: 750px;
+	margin-left: 150px;
+}
+footer {
+	font-family: 'Righteous', cursive;
+	color: #cc3333;
+	font-size: 16px;
+	margin-left: 400px;
+}
